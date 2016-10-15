@@ -1,0 +1,7 @@
+#Sat Oct 15 16:50:37 CDT 2016
+base.0=/Users/bsindala/Documents/UAB/Fall_2016/CS_499/Lab/MoralApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5c5c9bfd7f47d5d1caadd85d995dd051a1b0a707
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/bsindala/Documents/UAB/Fall_2016/CS_499/Lab/MoralApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_385c4db8a87c5bf373268da5bb07e1158798430b/classes.dex
+base.1=/Users/bsindala/Documents/UAB/Fall_2016/CS_499/Lab/MoralApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_385c4db8a87c5bf373268da5bb07e1158798430b
+file.0=/Users/bsindala/Documents/UAB/Fall_2016/CS_499/Lab/MoralApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5c5c9bfd7f47d5d1caadd85d995dd051a1b0a707/classes.dex
