@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="f4521723eaf2a5a14d9c1aae3a71efcbcea3e992">
+        sha1="cdf0caff440ab73b265134a8957dad2d63a98d9d">
         <dex dex="/Users/bsindala/Documents/UAB/Fall_2016/CS_499/Lab/MoralApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_385c4db8a87c5bf373268da5bb07e1158798430b/classes.dex" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7b3fec0351308f1541dff76052115035b1fd2887">
+        sha1="ffa3235a5eb831491244b202fd1b4ab27c8bee82">
         <dex dex="/Users/bsindala/Documents/UAB/Fall_2016/CS_499/Lab/MoralApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5c5c9bfd7f47d5d1caadd85d995dd051a1b0a707/classes.dex" />
     </item>
     <item

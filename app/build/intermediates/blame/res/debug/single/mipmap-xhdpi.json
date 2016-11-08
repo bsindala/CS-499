@@ -2,5 +2,9 @@
     {
         "merged": "/Users/bsindala/Documents/UAB/Fall_2016/CS_499/Lab/MoralApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/bsindala/Documents/UAB/Fall_2016/CS_499/Lab/MoralApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/bsindala/Documents/UAB/Fall_2016/CS_499/Lab/MoralApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi/moral_app.png",
+        "source": "/Users/bsindala/Documents/UAB/Fall_2016/CS_499/Lab/MoralApp/app/src/main/res/mipmap-xhdpi/moral_app.png"
     }
 ]

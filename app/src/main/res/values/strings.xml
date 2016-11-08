@@ -3,5 +3,11 @@
     <string name="moralApp">Welcome to Moral Reminders!</string>
     <string name="quote1">Cyberbullying can kill, imagine you are the person that this was done to you, would you be happy?</string>
     <string name="quote2">So what joy does it bring you to talk about the other persons looks, no one is perfect.</string>
-    <string name="quote3">What makes you think because you make more money than them to redicule them like this?</string>
+    <string name="quote3">What makes you think because you make more money than them to ridicule them like this?</string>
+    <string name="bully1">What good does bullying do?</string>
+    <string name="bully2">Does bullying make you feel better about yourself?</string>
+    <string name="bully3">Imagine it was one of your family members being bullied.</string>
+    <string name="feelGood1">Start your day with a smile.</string>
+    <string name="feelGood2">Today is your day to be the best person you could ever be, surprise everyone by being the best.</string>
+    <string name="feelGood3">Peace and harmony starts with you.</string>
 </resources>

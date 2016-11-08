@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
     android:id="@+id/activity_bullying"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,6 +11,46 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/choose_one"
     tools:context="com.example.bsindala.moralapp.BullyingActivity">
 
+    <TextView
+        android:text="@string/bully1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:id="@+id/bully1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="helvetica"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_green_light"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/bully2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bully1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:id="@+id/bully2"
+        android:fontFamily="helvetica"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/bully3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bully2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:id="@+id/bully3"
+        android:fontFamily="helvetica"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center" />
 </RelativeLayout>
+</ScrollView>

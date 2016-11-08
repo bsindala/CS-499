@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
     android:id="@+id/activity_feel_good"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,6 +11,46 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/choose_one"
     tools:context="com.example.bsindala.moralapp.FeelGoodActivity">
 
+    <TextView
+        android:text="@string/feelGood1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:id="@+id/feelGood1"
+        android:fontFamily="helvetica"
+        android:textSize="20sp"
+        android:textColor="?attr/colorPrimary"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/feelGood2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feelGood1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:id="@+id/feelGood2"
+        android:fontFamily="helvetica"
+        android:textSize="20sp"
+        android:textColor="?attr/textColorAlertDialogListItem"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/feelGood3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feelGood2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:id="@+id/feelGood3"
+        android:fontFamily="helvetica"
+        android:textSize="20sp"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textAlignment="center" />
 </RelativeLayout>
+</ScrollView>
