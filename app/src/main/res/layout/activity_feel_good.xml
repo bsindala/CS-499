@@ -24,33 +24,38 @@
         android:id="@+id/feelGood1"
         android:fontFamily="helvetica"
         android:textSize="20sp"
-        android:textColor="?attr/colorPrimary"
-        android:textAlignment="center" />
+        android:textColor="#191970"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:textStyle="normal|bold" />
 
     <TextView
         android:text="@string/feelGood2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/feelGood1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp"
         android:id="@+id/feelGood2"
         android:fontFamily="helvetica"
         android:textSize="20sp"
-        android:textColor="?attr/textColorAlertDialogListItem"
-        android:textAlignment="center" />
+        android:textColor="#191970"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold" />
 
     <TextView
         android:text="@string/feelGood3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/feelGood2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="87dp"
         android:id="@+id/feelGood3"
         android:fontFamily="helvetica"
         android:textSize="20sp"
-        android:textColor="?android:attr/colorPrimaryDark"
-        android:textAlignment="center" />
+        android:textColor="#191970"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:textStyle="normal|bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="26dp" />
 </RelativeLayout>
 </ScrollView>

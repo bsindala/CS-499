@@ -24,8 +24,10 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="helvetica"
         android:textSize="20sp"
-        android:textColor="@android:color/holo_green_light"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:textColor="#191970"
+        android:textStyle="normal|bold" />
 
     <TextView
         android:text="@string/bully2"
@@ -37,8 +39,10 @@
         android:id="@+id/bully2"
         android:fontFamily="helvetica"
         android:textSize="20sp"
-        android:textColor="@android:color/holo_orange_dark"
-        android:textAlignment="center" />
+        android:textColor="#191970"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:textStyle="normal|bold" />
 
     <TextView
         android:text="@string/bully3"
@@ -50,7 +54,9 @@
         android:id="@+id/bully3"
         android:fontFamily="helvetica"
         android:textSize="20sp"
-        android:textColor="@android:color/black"
-        android:textAlignment="center" />
+        android:textColor="#191970"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:textStyle="normal|bold" />
 </RelativeLayout>
 </ScrollView>
