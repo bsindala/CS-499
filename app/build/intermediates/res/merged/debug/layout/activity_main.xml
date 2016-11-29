@@ -16,41 +16,80 @@
     tools:context="com.example.bsindala.moralapp.MainActivity">
 
     <Button
+        android:id="@+id/big_moral_reminder"
+        android:text="Expandable Moral Reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/moral_reminder">
+    </Button>
+
+    <Button
+        android:id="@+id/progress_notification"
+        android:text="Progress notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/big_moral_reminder">
+    </Button>
+
+    <Button
+        android:text="Bullying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bullying"
+        tools:text="Bullying"
+        android:background="#008000"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/feelGood" />
+
+    <Button
         android:text="Cyberbullying"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/cyberbullying"
         android:elevation="0dp"
         tools:text="Cyberbullying"
         android:contentDescription="More Information on Cyberbullyin"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="50dp"
         android:background="#0000FF"
-        android:textStyle="normal|bold" />
-
-    <Button
-        android:text="Bullying"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/bullying"
-        tools:text="Bullying"
-        android:layout_below="@+id/cyberbullying"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="107dp"
-        android:background="#008000"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/feelGood" />
 
     <Button
         android:text="Feel Good"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/feelGood"
         tools:text="Feel Good"
         android:background="#C0C0C0"
-        android:layout_below="@+id/bullying"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="86dp"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/cyberbullying"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/moral_reminder"
+        android:text="Moral Reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/feelGood"
+        android:layout_alignParentStart="true">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button_notification"
+        android:text="Press For Notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/moral_reminder"
+        android:layout_alignParentEnd="true">
+    </Button>
 </RelativeLayout>
 </ScrollView>
