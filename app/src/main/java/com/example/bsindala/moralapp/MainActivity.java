@@ -27,10 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         /**
          * Notifications
          */
-        findViewById(R.id.moral_reminder).setOnClickListener(this);
         findViewById(R.id.big_moral_reminder).setOnClickListener(this);
-        findViewById(R.id.progress_notification).setOnClickListener(this);
-        findViewById(R.id.button_notification).setOnClickListener(this);
 
         cyberbullying.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,20 +56,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     {
         switch (v.getId())
         {
-            case R.id.moral_reminder:
-                nHandler.createMoralNotification(this);
-                break;
-
             case R.id.big_moral_reminder:
                 nHandler.createExpandableNotification(this);
                 break;
-
-            case R.id.progress_notification:
-                nHandler.createProgressNotification(this);
-                break;
-
-            case R.id.button_notification:
-                nHandler.createButtonNotification(this);
         }
     }
 

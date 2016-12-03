@@ -39,4 +39,47 @@
     <string name="feelGood8">Compliment people. Magnify their strengths, not their weaknesses.</string>
     <string name="feelGood9">People who wonder whether the glass is half-empty or half-full are missing the point. The glass is half full.</string>
     <string name="feelGood10">It\'s ok to be a glowstick. Sometimes we need to break before we shine.</string>
+    
+    <string-array name="remindersArray">
+        <item>Moral Reminders</item>
+        <item>Welcome to Moral Reminders!</item>
+
+        <item>We focus so much on our differences, and that is creating a lot of chaos and negativity and bullying in the world.
+            And if we all focused on what we all have in common, which is we all want to be happy.</item>
+        <item>Bullying just shows one\'s insecurities.</item>
+        <item>Bullying creates character like nuclear waster creates superheroes. It\'s a rare occurrence and often does much more damage than endowment.</item>
+        <item>Victims of bullying spare themselves distress, by detachment; denying their ability to experience happiness.</item>
+        <item>Your pain may be the reason for somebody\'s laugh, but your laugh should never be the reason for somebody\'s pain.</item>
+        <item>You will never reach higher ground if you are always pushing others down.</item>
+        <item>Watch your thoughts, they become words. Watch your words, they become actions. Watch your actions, they become habits.
+            Watch your habits, they become character. Watch your character, for it becomes your destiny.</item>
+        <item>Knowing what\'s right doesn\'t do much unless you do what\'s right.</item>
+        <item>Never do the wrong thing to make a friend or keep one.</item>
+        <item>Often the right part is one that may be the hardest for your to follow. But the hard path is also the one that will make you
+            grow as a human being.</item>
+
+        <item>Never be bullied into silence, never allow yourself to be a victim. Accept no one\'s definition of your life; define yourself.</item>
+        <item>Don\'t take anything personally, nothing other people do is because of your, it is because of themselves.</item>
+        <item>How you make others feel about themselves says a lot about you.</item>
+        <item>A beautiful person is a person with a good heart, if you have a good heart, there is no way you can be ugly.</item>
+        <item>Our prime purpose in this life is to help others. And if you can\'t help them, at least don\'t hurt them.</item>
+        <item>What if the person you bully today, grows up and turns out to be the only surgeon that could save your life?</item>
+        <item>People who love themselves, don\'t hate others. The more we hate ourselves, the more we want others to suffer.</item>
+        <item>Life is like a fight, but not everyone\'s a fighter. Otherwise bullies would be an endangered species.</item>
+        <item>You should never make fun of something that a person can never change about themselves.</item>
+        <item>People try to say suicide is the most cowardly act a man could ever commit. I don\'t think that is true at all.
+            What\'s cowardly is treating a man so badly that he wants to commit suicide.</item>
+
+        <item>We rise by lifting others.</item>
+        <item>Your are either as beautiful or as ugly as your feel you are. You define your beauty. That\'s not a power anyone can have over your.</item>
+        <item>The best way to cheer yourself up is to try to cheer somebody else up. -Mark Twain-</item>
+        <item>Smile often, think positively, give thanks, laugh loudly, love others, dream big.</item>
+        <item>Work hard and be kind, that is all.</item>
+        <item>You may go through a difficult time. Where you feel like a failure, but remember one thing,
+            struggle and hard times are the most inspirational thing in the world.</item>
+        <item>Never lose your sense of wonder.</item>
+        <item>Compliment people. Magnify their strengths, not their weaknesses.</item>
+        <item>People who wonder whether the glass is half-empty or half-full are missing the point. The glass is half full.</item>
+        <item>It\'s ok to be a glowstick. Sometimes we need to break before we shine.</item>
+    </string-array>
 </resources>
